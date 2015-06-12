@@ -1,0 +1,34 @@
+<header class="site-header">
+	<div class="logo">
+		{% if site.warning %}
+			<div class="warning">
+				<i class="fa fa-exclamation-triangle pull-left fa-2x"></i>
+				<div>
+					<p>{{ site.warning }}</p>
+				</div>
+			</div>
+		{% endif %}
+		{% if page.warning %}
+			<div class="warning">
+				<i class="fa fa-exclamation-triangle pull-left fa-2x"></i>
+				<div>
+					<p>{{ page.warning }}</p>
+				</div>
+			</div>
+		{% endif %}
+		<a href="{{ site.baseurl }}/">
+			<img src="{{ "/img/logomod.png" | prepend: site.baseurl }}" alt="Homeworld Remastered Modding Tutorials"/>
+		</a>
+	</div>
+	<div class="wrapper">
+		<nav class="site-nav">
+			<div class="trigger">
+				{% for page in site.pages %}
+				{% if page.title %}
+				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+				{% endif %}
+				{% endfor %}
+			</div>
+		</nav>
+	</div>
+</header>

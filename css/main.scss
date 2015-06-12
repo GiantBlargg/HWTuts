@@ -32,7 +32,7 @@ $imgdir: "{{ "/img/" | prepend: site.baseurl }}";
 	}
 }
 
-table {text-align:center;}
+table {margin-bottom:15px;}
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;

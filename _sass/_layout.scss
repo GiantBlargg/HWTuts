@@ -119,6 +119,7 @@
     background-image: url($imgdir +"hw1_main_bg.png");
 	background-attachment: fixed;
 	background-size: cover;
+	background-position: bottom right;
 	> .wrapper {
 		background-color: rgba(253,253,253,.61);
 		padding-top:15px;

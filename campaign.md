@@ -6,9 +6,9 @@ warning: This tutorial is under construction. Sections may be incomplete or miss
 
 This tutorial assumes basic knowledge of the mechanics of Homeworld Remastered, but no prior knowledge of modding Homeworld Remastered.
 
-Certain parts of this tutorial may be made easier by using the workshop tool, I would't know, it doesn't run on my system.
+## Comparison of Campaign Loading methods
 
-## Comparison of Campaign Loading methods (You can skip this part)
+If you just want to get to modding you can skip this section.
 
 As of the June 9 update custom campaigns can be loaded in three different ways
 
@@ -16,9 +16,9 @@ As of the June 9 update custom campaigns can be loaded in three different ways
 * Specifing the campaign with the `-campaign` parameter
 * Launching the campaign from the Extra Missions Menu
 
-Here is a brief comparison of the pros and cons of these methods is below.
+Here is a brief comparison of the pros and cons of these methods:
 
-Method of Launching | Preserves the default save | Doesn't require launch parameters | Launching directly from the menu
+Method of Launching | Preserves the default save | Doesn't require launch parameters | Launching directly from the main menu
 -:|:-:|:-:|:-:
 Overwriting the ascension campaign | <i class="fa fa-times fa-2x"></i> | <i class="fa fa-check fa-2x"></i> | <i class="fa fa-check fa-2x"></i>
 Specifing the campaign with the `-campaign` parameter | <i class="fa fa-check fa-2x"></i> | <i class="fa fa-times fa-2x"></i> | <i class="fa fa-check fa-2x"></i>
@@ -28,11 +28,11 @@ Launching from the Extra Missions Menu provides the least hassle for the end-use
 
 ## Creating a mod shell
 
-Mods in Homeworld Remastered work by overiding files found in the default .big files with your custom data.
+Mods in Homeworld Remastered work by overiding or adding to the files found in the default .big files with your custom data.
 
 We will need a place for these files to live in while we're working on them.
 
-Locate your Homeworld Remastered install folder. You can find this by going into Steam, right clicking on Homeworld Remastered Collection, and then Properties > Local Files > Browse Local Files > HomeworldRM.
+Locate your Homeworld Remastered install folder. If you don't know where this is you can find this by going into Steam, right clicking on Homeworld Remastered Collection, and then Properties > Local Files > Browse Local Files > HomeworldRM. You'll want to note the file path as we'll need it later. 
 
 Create a folder here for your mod. You can call it anything you want, but if you are following along with this tutorial, I will call mine `TutCampaign`.
 
@@ -44,11 +44,15 @@ At this point the basic mod shell is finished and you can launch your mod.
 
 ## Launching the mod
 
-by passing to the game the `-moddatapath` parameter followed by the name of your mod's folder.
+The mod can be launched by passing to the game the `-moddatapath` parameter followed by the name of your mod's folder.
 
-Launch Parameters can be set in many different ways and I will write this section later.
+Launch Parameters can be set in many different ways, but while you are working on your mod, I recommend that you create a custom shortcut to launch your mod.
+
+*This section is unfinished*
 
 At this point your mod will do nothing because we haven't added anything to it. So let's fix that.
 
 ## Setting up the Campaign
+
+*This section doesn't exist yet*
 

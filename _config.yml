@@ -2,7 +2,7 @@
 title: Modding Tutorials
 description: > # this means to ignore newlines until "baseurl:"
   Tutorials on modding Homeworld
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/HWTuts" # the subpath of your site, e.g. /blog
 url: "https://giantblargg.github.io/HWTuts/" # the base hostname & protocol for your site
 
 permalink: pretty

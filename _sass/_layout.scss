@@ -121,7 +121,8 @@
 	background-size: cover;
 	background-position: bottom right;
 	> .wrapper {
-		background-color: rgba(253,253,253,.61);
+		background-color: $article-background;
+		color: $article-text-color;
 		padding-top:15px;
 		border-radius: 1em;
 	}

@@ -74,8 +74,6 @@ li {
     }
 }
 
-
-
 /**
  * Headings
  */
@@ -128,9 +126,9 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid #171717;
+    border: 1px solid rgb(8, 12, 23);
     border-radius: 3px;
-    background-color: #001;
+    background-color: rgba(34, 56, 92, 0.5);
 }
 
 code {
@@ -139,12 +137,13 @@ code {
 
 pre {
     padding: 8px 12px;
-    overflow-x: scroll;
+    overflow-x: auto;
 
     > code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
+        background-color: transparent;
     }
 }
 

@@ -52,7 +52,7 @@ The mod can be launched by passing to the game the `-moddatapath` parameter foll
 
 Launch parameters can be set in many different ways, but while you are working on your mod, I recommend that you create a custom shortcut to launch your mod.
 
-*This section is unfinished*
+Navigate from the Homeworld Remastered install folder to Bin\Release\. Right click drag HomeworldRM.exe to your desktop and select `Create shortcuts here`. Right click on the new shortcut and select `Properties`. At the end of the `Target` line add a space and then `-moddatapath CampaignTutorial`, if you called your folder something other than `CampaignTutorial` use that instead.
 
 You must make sure Steam is running before running the shortcut or else it won't work properly.
 
